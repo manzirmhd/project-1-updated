@@ -1,0 +1,54 @@
+/*styles of section 7*/
+.body-7{
+    font-family: 'chivo',sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    background-color:rgb(0, 122, 92);
+    flex-wrap: wrap;
+}
+.content-7{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.cont-1{
+    width: 53%; 
+    background: url('./Assets/visit2.jpg.webp');
+    background-color: #FFF6EE;
+    background-size: cover;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 628px;
+}
+.cont-2{ 
+    width: 47%; 
+    padding: 60px 80px 0 40px;
+}
+.con-2-title{
+    padding-left: 50px;
+    
+}
+.con-2-title h2{
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 30px;
+    display: block;
+    line-height: 1.2;
+}
+.con-2-title p{
+    color: #C9D6CB;;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    width: 450px;
+}
+.browser-btn-7{
+    text-decoration: none;
+    color: rgb(201, 214, 203);
+    font-size: 20px;
+    font-weight: 400;
+}

@@ -1,0 +1,116 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    font-family: "Chivo",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.card{
+    margin-bottom: 50px;
+    width: 850px;
+    padding: 0;
+    border: none;
+    margin: 80px 30px 50px 80px;
+}
+
+.image{
+    position: relative;
+}
+
+.card-image{
+    vertical-align: middle;
+    width: 100%;
+    border-bottom-right-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+
+}
+.card-link {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    display: block;
+    color: #fff;
+    background-color: #007A5C;
+    padding: 8px 15px;
+    border-radius: 5px; 
+    text-decoration: none;
+    transition: 0.4s; 
+}
+.card-list a{
+    text-decoration: none;
+}
+@media (min-width: 768px){
+.card-link{
+    bottom: -20px;
+    left: 40px;
+    padding: 13px 30px 13px 30px;
+}
+}
+
+.image h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+.image p {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.card-content {
+    padding: 60px 30px 35px 35px;
+    box-shadow: 0px 10px 20px 0px rgba(221,221,221,0.3);
+    display: block;
+}
+.content-link{
+    color: black;
+    text-decoration: none;
+    display: inline-block !important;
+   
+}
+.card-content h2{
+    color: #2d2d2d;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.card-content h2:hover{
+    color: #007A5C;
+}
+.card-content p{
+    font-family: "Chivo",sans-serif;
+    color: #5D646A;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+ul{
+    margin-left: -15px;
+}
+.card-list a:hover{
+    color: #007A5C;
+}
+.card-link-2{
+    font-size: 14px;
+    margin-right: 5px; 
+    color: #5D646A;
+}
+
+
+
+
+

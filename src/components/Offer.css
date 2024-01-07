@@ -1,0 +1,65 @@
+
+/* section 3 style*/
+.body-3{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    background: #ffffff;
+    font-family: 'chivo',sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;   
+}
+
+.sc-3-offer{
+    box-sizing: border-box;
+    margin: 0px 0 40px 0; 
+    align-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.heading h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900; 
+    margin-bottom: 30px;
+    color: #32404D;
+}
+.heading p{
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.off-box{
+    display: flex;
+}
+.off-box-1{
+    margin-right: 10px;
+}
+.off-box-2{
+    margin-left: 10px;
+}
+.content-main{
+    padding: 15px;
+    border: 1px solid rgb(0, 122, 92);
+    margin-top: 10px;
+}
+.blog-caption{
+    margin-top: 30px;
+}
+.head{
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(33, 37, 41);
+}
+.browser-btn-3{
+    text-decoration: none;
+    color: rgb(0, 122, 92);   
+}
+
+.head:hover{
+    cursor: pointer;
+    color: rgb(0, 122, 92);
+    transition:  ease-in-out 0.3s;
+}

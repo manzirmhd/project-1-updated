@@ -1,0 +1,46 @@
+*,::after,::before{
+    font-family: "Chivo",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.body{
+    background: rgba(0,0,0,0.5)url('./Assets/h2_hero1.jpg.webp');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.main{
+    background: none;
+}
+
+.caption h2{
+    font-family: "Chivo",sans-serif;
+    color: #fff;
+    font-size: 54px;
+    display: block;
+    font-weight: 900;
+    line-height: 1.4;
+    margin-bottom: 6px;
+   
+}
+.caption p{
+    font-family: "Chivo",sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.8;
+    width: 500px;
+}
+.content{
+    padding-left: 100px;
+    padding-top: 120px;
+}
+

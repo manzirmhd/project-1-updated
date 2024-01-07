@@ -1,0 +1,157 @@
+*{
+   color: #5D646A;
+    
+}
+
+
+
+/* section 2 style*/
+.body-two{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #FCF2EB;
+    font-family: 'chivo',sans-serif;
+}
+
+.container{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.cont-box{
+    display: flex; 
+}
+
+.cont-box-1{
+ width: 50%;
+ background: url('./Assets/about1.jpg.webp');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.cont-box-2{
+    margin-left: 50px;
+    width: 50%;
+}
+.cont-box-2-content{
+    padding-left: 70px;
+}
+
+.title{ 
+    font-size: 1rem;
+    font-weight: 400;
+    align-content: space-between;
+    color: rgb(33, 37, 41);
+    text-size-adjust: 100%;
+    margin: 10px 0 0 0;
+}
+.title h2{
+ font-weight: 900;
+ color: #32404D;
+}
+.title p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 19px;
+    width: 450px;
+}
+.browser-btn{
+    color: rgb(0, 122, 92);
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/* section 4 style*/
+.body-4{
+    background: #e7fff0;
+    font-family: 'chivo',sans-serif;
+    font-weight: normal;
+    font-size: 19px;
+    color: #5D646A;
+    font-style: normal;
+    display: flex;   
+    padding-right: 0;
+    
+}
+
+.sc-4-resources{
+    font-family: Chivo, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 19px;
+    margin-right: 0;
+    margin-top: 40px;
+    padding-left: 100px;
+    margin-right:90px ;
+    width: 50%;
+}
+ 
+.section-4-heading h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(47, 54, 61);
+    margin-bottom: 20px;
+    
+}
+.section-4-heading p{
+  font-weight: 500;
+  font-size: 18px;
+  margin: 40px 0 50px 0;
+}
+
+.content-box{
+    transition: all 0.4s ease-out 0s;
+    background: none;
+    border: 1px solid rgba(93, 100, 106, 0.2);
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 15px;
+   
+}
+
+
+.content-box-body{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    
+}
+.content-box-body a{
+    text-decoration: none;
+    color: rgb(0, 122, 92);
+}
+.sc-4-resources-2 img{
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%
+}
+.sc-4-resources-2{
+    width: 50%;
+}
+.body-1 h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #32404D
+}
+.body-1 p{
+    font-size: 16px;
+}
+.icon-right{
+    font-size: 70px;
+}
+
+
+
+
+    
+   
+
+ 
+

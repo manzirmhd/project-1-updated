@@ -1,0 +1,12 @@
+.about-us-container {
+    padding: 50px 0;
+  }
+  
+  .about-us-text {
+    text-align: justify;
+  }
+  
+  .about-us-image img {
+    border-radius: 8px;
+  }
+  

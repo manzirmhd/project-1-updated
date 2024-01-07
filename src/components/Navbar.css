@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.main{
+    background-color: #ffffff;
+    display: flex;
+    font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    
+}
+
+nav{
+    background-color: #ffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+}
+
+ul{
+    float: left;
+    margin-left: 5%;
+    margin: 0 2rem;
+    text-decoration: none;  
+}
+
+.call{
+    display: flex; 
+}
+.call p{
+    margin-bottom: 0;
+}
+
+.call p a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+}
+
+.call p a:hover{
+    color:rgb(18, 124, 38);
+}
+.social{
+    float: right;
+    margin-right: 5px;
+    display: flex;
+    align-content: center;
+}
+
+.social a {
+    padding: 5px;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+.m-icon{
+    font-size: 25px;
+}
+
+.social a :hover{
+    color: rgb(18, 124, 38);;
+}
+
+ul li{
+    margin: 0;
+    padding-top: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-link{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #32404D ;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar-link:hover{
+    color: rgb(18, 124, 38);
+}
+
+.nav-btn,.nav-close-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(22, 151, 45) ;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+@media screen and (max-width: 500px) {
+    
+  }
+
